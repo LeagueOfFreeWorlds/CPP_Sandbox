@@ -1,0 +1,34 @@
+//============================================================================
+// Name        : FirstTime.cpp
+// Author      : Dr. Coom
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+/*
+ * endl tells c++ to break the line and write on a new one
+ *
+ *
+ */
+void additionCalc(double num1, double num2);
+void subtractionCalc(double num1, double num2);
+void multiplicationCalc(double num1, double num2);
+void divisionCalc(double num1, double num2);
+void restart(double num1, double num2);
+int main() {
+
+	return 0;
+}
+
+
+
+
+
+// Method determines your sex and height :
+
+
+

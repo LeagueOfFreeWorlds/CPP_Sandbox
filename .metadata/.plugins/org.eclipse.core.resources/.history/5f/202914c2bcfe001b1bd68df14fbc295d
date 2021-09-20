@@ -1,0 +1,18 @@
+/*
+ * NumberWorks.cpp
+ *
+ *  Created on: Aug 16, 2021
+ *      Author: nathan-host
+ */
+
+#include "NumberWorks.h"
+
+NumberWorks::NumberWorks() {
+	// TODO Auto-generated constructor stub
+
+}
+
+NumberWorks::~NumberWorks() {
+	// TODO Auto-generated destructor stub
+}
+

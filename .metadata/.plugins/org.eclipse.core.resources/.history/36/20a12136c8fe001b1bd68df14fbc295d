@@ -1,0 +1,20 @@
+/*
+ * Exec.cpp
+ *
+ *  Created on: Aug 16, 2021
+ *      Author: nathan-host
+ */
+
+#include <iostream>
+using namespace std;
+int main(){
+	int luckyNums[] = {4, 8, 15, 16, 234, 59};
+	cout << luckyNums[0];
+	return 0;
+}
+
+void sayHi (){
+
+}
+
+

@@ -1,0 +1,64 @@
+/*
+ * Exec.cpp
+ *
+ *  Created on: Aug 16, 2021
+ *      Author: nathan-host
+ */
+/*
+ * Exec.cpp
+ *
+ *  Created on: Aug 16, 2021
+ *      Author: nathan-host
+ */
+#include <iostream>
+using namespace std;
+
+class Employee{
+	// Private encapsulation:
+private:
+	string Name;
+	string Company;
+	int Age;
+	// Public (visible to the entire program:
+public:
+	void setName(string name){ // setter
+		Name = name;
+	}
+	string getName(){ // getter
+		return Name;
+	}
+	void setCompany (string company){
+		Company = company;
+	}
+	string setCompany(){
+		return Company;
+	}
+	void setAge(){
+		Age = age;
+	}
+	int getAge(){
+		return Age;
+	}
+
+	void introduceYourself(){
+		cout << "Name - " << Name << endl;
+		cout << "Company " << Company << endl;
+		cout << "Age - " << Age << endl;
+	}
+public:
+	Employee(string name, string company, int age){
+		Name  = name;
+		Company = company;
+		Age = age;
+	}
+};
+int main(){
+	Employee employee1 = Employee("Nathan", "Autonomous Research Corporation", 26);
+	employee1.introduceYourself();
+	Employee employee2 = Employee("Dima", "Thunder Aerospace", 27);
+	employee2.introduceYourself();
+	employee1.setAge(49);
+
+}
+
+

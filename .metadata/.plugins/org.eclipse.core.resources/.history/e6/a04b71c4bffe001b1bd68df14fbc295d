@@ -1,0 +1,16 @@
+/*
+ * Exec.cpp
+ *
+ *  Created on: Aug 16, 2021
+ *      Author: nathan-host
+ */
+
+#include <iostream>
+
+int main(){
+	int luckyNums[] = {4, 8, 15, 16, 234, 59};
+
+	return 0;
+}
+
+

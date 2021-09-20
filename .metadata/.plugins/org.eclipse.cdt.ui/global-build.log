@@ -1,0 +1,93 @@
+21:53:16 **** Incremental Build of configuration Debug for project OOP ****
+make all 
+Building file: ../src/Exec.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Exec.d" -MT"src/Exec.o" -o "src/Exec.o" "../src/Exec.cpp"
+Finished building: ../src/Exec.cpp
+ 
+Building target: OOP
+Invoking: GCC C++ Linker
+g++  -o "OOP" ./src/Exec.o   
+Finished building target: OOP
+ 
+21:53:18 **** Incremental Build of configuration Debug for project OOP ****
+make all 
+make: Nothing to be done for 'all'.
+22:12:21 **** Incremental Build of configuration Debug for project OOP ****
+make all 
+Building file: ../src/Exec.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Exec.d" -MT"src/Exec.o" -o "src/Exec.o" "../src/Exec.cpp"
+Finished building: ../src/Exec.cpp
+ 
+Building target: OOP
+Invoking: GCC C++ Linker
+g++  -o "OOP" ./src/Exec.o   
+Finished building target: OOP
+ 
+22:24:25 **** Incremental Build of configuration Debug for project OOP ****
+make all 
+Building file: ../src/Exec.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Exec.d" -MT"src/Exec.o" -o "src/Exec.o" "../src/Exec.cpp"
+Finished building: ../src/Exec.cpp
+ 
+Building target: OOP
+Invoking: GCC C++ Linker
+g++  -o "OOP" ./src/Exec.o   
+Finished building target: OOP
+ 
+22:24:38 **** Incremental Build of configuration Debug for project OOP ****
+make all 
+Building file: ../src/Exec.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Exec.d" -MT"src/Exec.o" -o "src/Exec.o" "../src/Exec.cpp"
+Finished building: ../src/Exec.cpp
+ 
+Building target: OOP
+Invoking: GCC C++ Linker
+g++  -o "OOP" ./src/Exec.o   
+Finished building target: OOP
+ 
+23:25:49 **** Incremental Build of configuration Debug for project OOP ****
+make all 
+Building file: ../src/Exec.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Exec.d" -MT"src/Exec.o" -o "src/Exec.o" "../src/Exec.cpp"
+../src/Exec.cpp: In member function 'virtual void Employee::AskForPromotion()':
+../src/Exec.cpp:60:20: error: 'age' was not declared in this scope; did you mean 'Age'?
+   60 |                 if(age > 30){
+      |                    ^~~
+      |                    Age
+make: *** [src/subdir.mk:20: src/Exec.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:26:08 **** Incremental Build of configuration Debug for project OOP ****
+make all 
+Building file: ../src/Exec.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Exec.d" -MT"src/Exec.o" -o "src/Exec.o" "../src/Exec.cpp"
+Finished building: ../src/Exec.cpp
+ 
+Building target: OOP
+Invoking: GCC C++ Linker
+g++  -o "OOP" ./src/Exec.o   
+Finished building target: OOP
+ 
+23:26:11 **** Incremental Build of configuration Debug for project OOP ****
+make all 
+make: Nothing to be done for 'all'.
+23:26:28 **** Incremental Build of configuration Debug for project OOP ****
+make all 
+Building file: ../src/Exec.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Exec.d" -MT"src/Exec.o" -o "src/Exec.o" "../src/Exec.cpp"
+Finished building: ../src/Exec.cpp
+ 
+Building target: OOP
+Invoking: GCC C++ Linker
+g++  -o "OOP" ./src/Exec.o   
+Finished building target: OOP
+ 
+00:03:14 **** Incremental Build of configuration Debug for project OOP ****
+make all 
+make: Nothing to be done for 'all'.

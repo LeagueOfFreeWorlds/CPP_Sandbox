@@ -1,0 +1,32 @@
+//============================================================================
+// Name        : FirstTime.cpp
+// Author      : Dr. Coom
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+/*
+ * endl tells c++ to break the line and write on a new one
+ *
+ *
+ */
+void maleTest(bool male);
+int main() {
+	bool isMale = true;
+
+
+	return 0;
+}
+void maleTest(bool male){
+	if(male){
+			cout << "You are a male";
+		} else {
+			cout << "You are not a male";
+		}
+}
+
+

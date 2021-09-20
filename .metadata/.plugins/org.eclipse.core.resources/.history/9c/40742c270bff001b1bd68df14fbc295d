@@ -1,0 +1,20 @@
+/*
+ * Exec.h
+ *
+ *  Created on: Aug 16, 2021
+ *      Author: nathan-host
+ */
+
+#include <iostream>
+using std::string;
+class Employee{
+	string Name;
+	string Company;
+	int Age;
+};
+int main(){
+
+
+	return 0;
+
+}

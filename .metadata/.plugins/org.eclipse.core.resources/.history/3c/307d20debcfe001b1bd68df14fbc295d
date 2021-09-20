@@ -1,0 +1,17 @@
+/*
+ * NumberWorks.cpp
+ *
+ *  Created on: Aug 16, 2021
+ *      Author: nathan-host
+ */
+
+#include <iostream>
+
+using namespace std;
+
+int main(){
+	int wnum = 5;
+
+	return 0;
+}
+

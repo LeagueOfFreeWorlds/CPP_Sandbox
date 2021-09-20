@@ -1,0 +1,51 @@
+//============================================================================
+// Name        : FirstTime.cpp
+// Author      : Dr. Coom
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+/*
+ * endl tells c++ to break the line and write on a new one
+ *
+ *
+ */
+void additionCalc(double num1, double num2);
+void subtractionCalc(double num1, double num2);
+void multiplicationCalc(double num1, double num2);
+void divisionCalc(double num1, double num2);
+void restart(double num1, double num2);
+int main() {
+	int selection;
+	double num1, num2;
+	cout << "Welcome to the calculator. Please select a calculation" << endl;
+	cout << "1. Addition | 2. Subtraction | 3. Multiplication | 4. Division" << endl;
+	cin >> selection;
+	if(selection == 1){
+
+	} else if(selection == 2){
+
+	} else if(selection == 3){
+
+	} else if(selection == 4){
+
+	} else{
+		cout << "I don't know what you're doing";
+	}
+
+	return 0;
+}
+void additionCalc(double num1, double num2){
+	cout << num1 + num2 << endl;
+}
+
+
+
+
+
+
+

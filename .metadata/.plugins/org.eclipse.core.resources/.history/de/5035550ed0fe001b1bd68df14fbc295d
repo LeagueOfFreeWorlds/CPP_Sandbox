@@ -1,0 +1,53 @@
+//============================================================================
+// Name        : FirstTime.cpp
+// Author      : Dr. Coom
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+/*
+ * endl tells c++ to break the line and write on a new one
+ *
+ *
+ */
+void maleTest(bool male, bool isTall);
+// checking largest value of numbers.
+int getMax(int num1, int num2, int num3){
+	int result;
+	if(num1 >= num2 && num1 >= num3){
+		result = num1;
+	} else if(num2 >= num1 && num2 >= num3){
+		result = num2;
+	}else{
+		result = num3;
+	}
+
+	return result;
+}
+int main() {
+	cout << getMax(2, 5, 7);
+	return 0;
+}
+
+
+
+
+
+// Method determines your sex and height :
+void maleTest(bool male, bool isTall){
+	if(male && isTall){
+			cout << "You are a male who is also tall";
+		}else if (male && !isTall){
+			cout << "You are a short male";
+		}else if(isTall && !male){
+			cout << "You are not a male who is tall";
+		} else{
+			cout << "You are not tall and not a male";
+		}
+}
+
+

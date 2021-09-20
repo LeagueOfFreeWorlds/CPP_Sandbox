@@ -1,0 +1,24 @@
+/*
+ * Exec.h
+ *
+ *  Created on: Aug 16, 2021
+ *      Author: nathan-host
+ */
+
+#include <iostream>
+using namespace std;
+
+class Employee{
+	string Name;
+	string Company;
+	int Age;
+	void introduceYourself(){
+
+	}
+};
+int main(){
+
+
+	return 0;
+
+}

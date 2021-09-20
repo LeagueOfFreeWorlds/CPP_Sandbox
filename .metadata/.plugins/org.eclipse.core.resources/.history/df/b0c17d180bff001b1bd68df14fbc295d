@@ -1,0 +1,19 @@
+/*
+ * Exec.h
+ *
+ *  Created on: Aug 16, 2021
+ *      Author: nathan-host
+ */
+
+#include <iostream>
+class Employee{
+	string Name;
+	string Company;
+	int Age;
+};
+int main(){
+
+
+	return 0;
+
+}

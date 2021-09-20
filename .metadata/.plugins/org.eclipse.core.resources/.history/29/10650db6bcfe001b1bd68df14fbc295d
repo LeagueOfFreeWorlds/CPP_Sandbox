@@ -1,0 +1,17 @@
+/*
+ * NumberWorks.h
+ *
+ *  Created on: Aug 16, 2021
+ *      Author: nathan-host
+ */
+
+#ifndef NUMBERWORKS_H_
+#define NUMBERWORKS_H_
+
+class NumberWorks {
+public:
+	NumberWorks();
+	virtual ~NumberWorks();
+};
+
+#endif /* NUMBERWORKS_H_ */

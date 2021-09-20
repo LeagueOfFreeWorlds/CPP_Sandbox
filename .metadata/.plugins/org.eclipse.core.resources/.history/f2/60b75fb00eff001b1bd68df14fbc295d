@@ -1,0 +1,41 @@
+/*
+ * Exec.cpp
+ *
+ *  Created on: Aug 16, 2021
+ *      Author: nathan-host
+ */
+/*
+ * Exec.cpp
+ *
+ *  Created on: Aug 16, 2021
+ *      Author: nathan-host
+ */
+#include <iostream>
+using namespace std;
+
+class Employee{
+public:
+	string Name;
+	string Company;
+	int Age;
+
+	void introduceYourself(){
+		cout << "Name - " << Name << endl;
+		cout << "Company " << Company << endl;
+		cout << "Age - " << Age << endl;
+	}
+};
+int main(){
+	Employee employee1;
+	employee1.Name = "Nathan";
+	employee1.Company = "Autonomous Research Corporation";
+	employee1.Age = 26;
+	employee1.introduceYourself();
+	Employee employee2;
+	employee2.Name = "Dima";
+	employee2.Company = "Thunder Aerospace";
+	employee2.Age = 35;
+
+}
+
+
